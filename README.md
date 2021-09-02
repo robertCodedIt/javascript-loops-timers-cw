@@ -5,10 +5,12 @@ Write a JavaScript conditional statement to find the largest of the five numbers
 
 ```const myNumberList = [12, 2112, 9000, 1999, 24];```
 
-### Exercise 1: Loops
-Create a hardcoded/fixed password. Create a do-while loop that will ask the user to enter the correct password until it matches the hardcoded password. Once they match alert the user `THAT’S CORRECT!!!`
-
-NOTE: Your code should handle the password regardless of the case (upper or lower).
+### Exercise 1: While/For Loops
+- Create an empty `name_array`
+- Ask the user ```Enter a word. Enter 'q' to quit.``` Add each word they enter to the array
+- Create a while loop that will keep asking for words to add to the array until they enter 'q'
+- When the user enters 'q' use a **for** loop to print each word from the array
+- NOTE: Your code should handle the case of the entered quite letter `Q`
 
 ### Exercise 2: Loops - FIZZBUZZ
 
