@@ -1,2 +1,1 @@
-# javascript-loops-timers
-JavaScript Loops and Timer Events
+# JavaScript Loops and Timer Events - Classwork
