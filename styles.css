@@ -1,0 +1,42 @@
+@keyframes move {
+    to{
+        left:100px;
+    }
+   
+}
+
+@keyframes bg {
+    0% {
+      background: #ee6055;
+    }
+    25% {
+      background: #60d394;
+    }
+    50% {
+      background: #aaf683;
+    }
+    75% {
+      background: #ffd97d;
+    }
+    100% {
+      background: #ff9b85;
+    }
+  }
+  body{
+      display:grid;
+      place-items: center;
+  }
+div{
+position:absolute;
+top:360px;
+left:640px;
+    animation: bg 5s ease infinite;
+    width:200px;
+
+}
+img{
+    position:relative;
+    left:40px;
+   animation:move 8s ease-in-out infinite;
+    
+}
